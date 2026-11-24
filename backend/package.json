@@ -1,0 +1,16 @@
+{
+  "name": "gymlog-backend",
+  "version": "0.1.0",
+  "description": "GymLog REST API (Node.js + Express + MongoDB)",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  }
+}
